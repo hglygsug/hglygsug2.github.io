@@ -1,9 +1,6 @@
 body {
+    margin: 0;
     background-color: powderblue;
-}
-
-h1 {
-    color: blue;
 }
 
 header#q44 {
@@ -13,14 +10,56 @@ header#q44 {
     overflow: hidden;
     background-color: #dddddd;
 }
+
+header#q44 img {
+    float: left;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+
 }
 
-nav {
-    float: left;
-    width: 30%;
-    height: 300px;
-    background: #ccc;
-    padding: 20px;
+nav.menu p {
+    max-width: 960px;
+    background-color: #ccc;
+    margin: 20px auto 0;
+    padding: 10px;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    background-color: #ddd;
+    padding: 10px;
+}
+
+div {
+    max-width: 960px;
+    background-color: #ccc;
+    margin: 20px auto 0;
+    padding: 10px;
+}
+
+ul li img {
+    width: 500px;
+}
+
+table thead tr {
+    background-color: red;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: navy;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: red;
+}
+
+img[usemap] {
+    width: 500px;
 }
 
 footer {
